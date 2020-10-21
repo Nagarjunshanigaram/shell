@@ -1,0 +1,15 @@
+#! /bin/bash
+
+#local variable
+
+function nag(){
+local h=10
+echo in function h value is $h
+}
+
+h=12
+echo before calling nag function h value is $h
+
+nag
+
+echo after calling nag function h value is $h
