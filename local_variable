@@ -10,6 +10,7 @@ echo in function h value is $h
 h=12
 echo before calling nag function h value is $h
 
+echo added and pushed to git
 nag
 
 echo after calling nag function h value is $h
